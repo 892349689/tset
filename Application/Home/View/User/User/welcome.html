@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="{$NB}Public/easyui/themes/default/easyui.css" type="text/css"/>
+		<link rel="stylesheet" href="{$NB}Public/easyui/themes/icons" type="text/css"/>
+		<script type="text/javascript" src="{$NB}Public/jQuery/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="{$NB}Public/easyui/jquery.easyui.min.js"></script>
+		<script type="text/javascript">
+		function addTabs(title, url){
+			$('#tt').tabs('add',{
+				title: title,
+				selected: true,
+				closable: true,
+				content:'<iframe style="border:1px sild red;" src="'+url+'" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>'
+			});
+		}
+		</script>
+	</head>
+	<body class="easyui-layout">   
+        <div data-options="region:'north',split:true" style="height:50px;">
+        	欢迎你{$Think.session.userName}
+        </div>     
+        <div data-options="region:'west',title:'菜单列表',split:true,collapsible:false" style="width:150px;">
+    		<ul class="easyui-tree">   
+                <volist name="Think.session.menus" id="m1">
+                	<if condition="$m1.level eq 1">
+                		<li>
+                			<span>{$m1.mname}</span>
+                			<ul>
+                				<assign name="mid" value="$m1.mid"/>
+                				<volist name="Think.session.menus" id="m2">
+                					<if condition="$m2.level eq 2 and $m2.parentlevel eq $mid">
+                						<li><a href='javascript:addTabs("{$m2.mname}","{$NB}{$m2.url}");'>{$m2.mname}</a></li>
+                					</if>
+                				</volist>
+                			</ul>
+                		</li>
+                	</if>
+                </volist>
+            </ul>
+        </div>  
+        <div data-options="region:'center'" style="background:#eee;">
+        	<div id="tt" class="easyui-tabs" data-options="fit:true">   
+               <div id="Tab1" class="easyui-tabs" data-options="fit:true"> 
+                    <div title="欢迎你！">   
+                        <div id="cc" class="easyui-calendar" style="width:180px;height:180px;" data-options="fit:true"></div>   
+                    </div>  
+                </div> 
+        	</div>
+        </div>
+	</body>  
+</html>
+				 
+

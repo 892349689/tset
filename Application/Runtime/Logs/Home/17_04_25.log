@@ -1,0 +1,1459 @@
+[ 2017-04-25T09:17:49+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0240s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-25T09:51:01+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T11:40:30+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0020s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T11:53:11+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/a=userlist/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+
+[ 2017-04-25T11:53:55+08:00 ] 127.0.0.1 /think/index.php/Home/User/a=userlist/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User/a=userlist
+
+[ 2017-04-25T11:55:06+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0580s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T13:31:21+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T13:34:58+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T13:35:04+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T13:35:13+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0020s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T13:35:16+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T13:37:51+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-25T13:38:07+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T13:39:35+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T13:40:56+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T13:46:33+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0700s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T13:46:57+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T13:50:46+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T13:53:48+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'property.clientemployee' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `clientemployee`
+ERR: 1146:Table 'property.clientemployee' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `clientemployee`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP-webapp\think\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\PHP-webapp\think\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP-webapp\think\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\PHP-webapp\think\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-04-25T13:53:52+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'property.clientemployee' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `clientemployee`
+ERR: 1146:Table 'property.clientemployee' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `clientemployee`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP-webapp\think\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\PHP-webapp\think\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP-webapp\think\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\PHP-webapp\think\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-04-25T13:54:18+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T13:54:21+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T13:54:32+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'userName' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `client` WHERE ( userName='陈伟' ) 
+ERR: 1054:Unknown column 'userName' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `client` WHERE ( userName='陈伟' ) 
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP-webapp\think\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\PHP-webapp\think\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP-webapp\think\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\PHP-webapp\think\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-04-25T13:55:25+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'userName' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `client` WHERE ( userName='陈伟' ) 
+ERR: 1054:Unknown column 'userName' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `client` WHERE ( userName='陈伟' ) 
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP-webapp\think\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\PHP-webapp\think\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP-webapp\think\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\PHP-webapp\think\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-04-25T13:55:35+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0020s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T13:55:37+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T13:55:46+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0010s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-25T13:57:46+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T13:58:22+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T13:59:41+08:00 ] 127.0.0.1 /think/index.php?c=User&a=client
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-04-25T13:59:43+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:00:36+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T14:03:57+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:04:06+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `client` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:07:46+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0050s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:09:05+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0050s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:09:07+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0010s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:09:11+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:09:14+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:09:23+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:09:24+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:09:57+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:09:59+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:10:01+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:10:06+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:10:12+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:10:45+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:10:50+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:11:38+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0010s ]
+
+[ 2017-04-25T14:11:40+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:12:04+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1&pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0010s ]
+
+[ 2017-04-25T14:13:24+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0010s ]
+
+[ 2017-04-25T14:13:26+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1/pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2017-04-25T14:13:28+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1/pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:13:30+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1/pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0050s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:13:32+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/2/pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 1,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:14:16+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1/pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0010s ]
+
+[ 2017-04-25T14:14:18+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1/pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:17:07+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1/pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:17:08+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/2/pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 1,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T14:17:10+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1/pageSize/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0010s ]
+
+[ 2017-04-25T14:17:12+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo/1/pageSize/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `client` LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2017-04-25T15:24:35+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0030s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T15:26:01+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0010s ]
+
+[ 2017-04-25T15:31:59+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:42:46+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0010s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:44:34+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/amend/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `job` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `job` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:44:41+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/amend/pageNo/1/pageSize/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0010s ]
+SQL: SELECT count(*) FROM `job` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `job` LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:44:42+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/amend/pageNo/1/pageSize/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `job` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `job` LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:44:45+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/amend/pageNo/1/pageSize/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `job` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `job` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:45:07+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/employee/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:45:11+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/employee/pageNo/1/pageSize/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:45:12+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/employee/pageNo/1/pageSize/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employee` LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:45:14+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/employee/pageNo/1/pageSize/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:46:02+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/employee/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:46:08+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/amend/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `job` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `job` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T15:50:54+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/complain/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `complain` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `complain` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:51:34+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/complain/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `complain` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `complain` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:51:40+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/complain/pageNo/1/pageSize/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `complain` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `complain` LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2017-04-25T15:51:41+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/complain/pageNo/1/pageSize/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `complain` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `complain` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T15:51:42+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/complain/pageNo/1/pageSize/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `complain` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `complain` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T15:58:04+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/houses/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `houses` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `houses` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T15:58:16+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/houses/pageNo/1/pageSize/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `houses` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `houses` LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:58:36+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/complain/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `complain` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `complain` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T15:58:37+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/amend/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `job` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `job` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:58:38+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/employee/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T15:58:39+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/complain/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `complain` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `complain` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-25T16:15:15+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/schedules/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `schedules` LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `schedules` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T16:17:02+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/schedules/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `schedules` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `schedules` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T16:36:56+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0020s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T16:36:58+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0010s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T16:37:02+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/employee/pageNo=1/pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `employee` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `employee` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-25T16:52:58+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0010s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-25T16:54:52+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0030s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T16:55:15+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0030s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T16:56:23+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0020s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-25T17:00:35+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0030s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T17:06:55+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0030s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T17:07:07+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T17:07:17+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T17:07:24+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0040s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-25T17:16:32+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `employee` WHERE ( userName='陈伟' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `employeejob` [ RunTime:0.0030s ]
+SQL: SELECT m.* FROM employeejob ej,jobmenu jm,menu m WHERE ( ej.eid = jm.eid AND m.mid = jm.mid AND ej.eid=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: userName D:\PHP-webapp\think\Application\Home\Controller\User\UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-25T17:16:35+08:00 ] 127.0.0.1 /think/index.php/Home/User/User/userlist/pageNo=1/pageSize=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `client` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `complain` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `houses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `schedules` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `client` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `client` LIMIT 0,1   [ RunTime:0.0010s ]
+
+[ 2017-04-25T17:17:02+08:00 ] 127.0.0.1 /think/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
